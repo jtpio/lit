@@ -1,4 +1,4 @@
-# 🔥 Lit 🔥
+# 🔥 LIT 🔥
 
 A custom JupyterLite deployed as a static site to GitHub Pages.
 
