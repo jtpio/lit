@@ -2,9 +2,21 @@
   "content": [
     {
       "content": null,
-      "created": "2021-07-08T16:31:23.325278Z",
+      "created": "2021-07-08T16:32:00.594177Z",
       "format": null,
-      "last_modified": "2021-07-08T16:30:30.660425Z",
+      "last_modified": "2021-07-08T16:30:59.582348Z",
+      "mimetype": null,
+      "name": "2021-06-03-pydata-paris.ipynb",
+      "path": "content/talks/2021-06-03-pydata-paris.ipynb",
+      "size": 11535,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-08T16:32:00.594177Z",
+      "format": null,
+      "last_modified": "2021-07-08T16:30:59.582348Z",
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "content/talks/README.md",
@@ -13,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2021-07-08T16:31:23.325278Z",
+  "created": "2021-07-08T16:32:00.594177Z",
   "format": "json",
-  "last_modified": "2021-07-08T16:31:23.325278Z",
+  "last_modified": "2021-07-08T16:32:00.594177Z",
   "mimetype": null,
   "name": "talks",
   "path": "content/talks",
