@@ -6,6 +6,16 @@
     "federated_extensions": [
       {
         "extension": "./extension",
+        "load": "static/remoteEntry.00c3536d6af81e168e20.js",
+        "name": "@dunovank/jupyterlab_darkside_ui"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.468f121c02f81b5c3156.js",
+        "name": "@dunovank/jupyterlab_legos_ui"
+      },
+      {
+        "extension": "./extension",
         "load": "static/remoteEntry.ca1efc27dc965162ca86.js",
         "name": "@jupyter-widgets/jupyterlab-manager"
       },
