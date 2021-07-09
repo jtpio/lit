@@ -1,5 +1,6 @@
 bqplot
 ipycanvas
+ipylab
 ipyleaflet
 ipywidgets>=7.6
 jupyterlab-darkside-ui>=0.1.9
