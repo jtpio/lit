@@ -20,7 +20,6 @@ const serverExtensions = [
 // custom list of disabled plugins
 const disabled = [
   ...JSON.parse(PageConfig.getOption('disabledExtensions') || '[]'),
-  '@jupyterlab/apputils-extension:themes',
   '@jupyterlab/apputils-extension:workspaces',
   '@jupyterlab/application-extension:logo',
   '@jupyterlab/application-extension:main',
@@ -151,16 +150,6 @@ async function main() {
   if (!federatedExtensionNames.has('@jupyterlite/application-extension')) {
     try {
       let ext = require('@jupyterlite/application-extension');
-      for (let plugin of activePlugins(ext)) {
-        pluginsToRegister.push(plugin);
-      }
-    } catch (e) {
-      console.error(e);
-    }
-  }
-  if (!federatedExtensionNames.has('@jupyterlite/theme-extension')) {
-    try {
-      let ext = require('@jupyterlite/theme-extension');
       for (let plugin of activePlugins(ext)) {
         pluginsToRegister.push(plugin);
       }

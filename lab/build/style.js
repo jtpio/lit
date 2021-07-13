@@ -31,4 +31,3 @@ import '@jupyterlab/ui-components-extension/style/index.js';
 import '@jupyterlab/vega5-extension/style/index.js';
 import '@jupyterlite/application-extension/style/index.js';
 import '@jupyterlite/iframe-extension/style/index.js';
-import '@jupyterlite/theme-extension/style/index.js';
