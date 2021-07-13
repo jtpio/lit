@@ -2,6 +2,12 @@
   "jupyter-config-data": {
     "appUrl": "./lab",
     "baseUrl": "./",
+    "collaborative": true,
+    "disabledExtensions": [
+      "@jupyterlab/server-proxy",
+      "jupyterlab-server-proxy",
+      "nbdime-jupyterlab"
+    ],
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {
