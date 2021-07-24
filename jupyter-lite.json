@@ -1,6 +1,8 @@
 {
   "jupyter-config-data": {
+    "appName": "JupyterLite",
     "appUrl": "./lab",
+    "appVersion": "0.1.0-alpha.6",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -49,7 +51,7 @@
       },
       {
         "extension": "./extension",
-        "load": "static/remoteEntry.0833372f8237ff5028c7.js",
+        "load": "static/remoteEntry.e9a229a6deef8e3c895b.js",
         "name": "bqplot"
       },
       {
