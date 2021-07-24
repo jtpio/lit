@@ -4,12 +4,6 @@
     "appUrl": "./lab",
     "appVersion": "0.1.0-alpha.6",
     "baseUrl": "./",
-    "collaborative": true,
-    "disabledExtensions": [
-      "@jupyterlab/server-proxy",
-      "jupyterlab-server-proxy",
-      "nbdime-jupyterlab"
-    ],
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {
