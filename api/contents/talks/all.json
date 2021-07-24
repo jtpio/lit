@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.336031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": null,
+      "name": "2021-06-03-pydata-paris.ipynb",
+      "path": "talks/2021-06-03-pydata-paris.ipynb",
+      "size": 11535,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.336031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": "text/markdown",
+      "name": "README.md",
+      "path": "talks/README.md",
+      "size": 58,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-07-24T12:28:40.336031Z",
+  "format": "json",
+  "last_modified": "2021-07-24T12:28:40.336031Z",
+  "mimetype": null,
+  "name": "talks",
+  "path": "talks",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

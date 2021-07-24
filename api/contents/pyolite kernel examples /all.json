@@ -1,0 +1,109 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.332031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": null,
+      "name": "plotly.ipynb",
+      "path": "pyolite kernel examples /plotly.ipynb",
+      "size": 2634,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.332031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": null,
+      "name": "matplotlib.ipynb",
+      "path": "pyolite kernel examples /matplotlib.ipynb",
+      "size": 36326,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.332031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": null,
+      "name": "folium.ipynb",
+      "path": "pyolite kernel examples /folium.ipynb",
+      "size": 5037,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.332031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": null,
+      "name": "interactive-widgets.ipynb",
+      "path": "pyolite kernel examples /interactive-widgets.ipynb",
+      "size": 6000,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.332031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": null,
+      "name": "ipycanvas.ipynb",
+      "path": "pyolite kernel examples /ipycanvas.ipynb",
+      "size": 4362,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.332031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": null,
+      "name": "altair.ipynb",
+      "path": "pyolite kernel examples /altair.ipynb",
+      "size": 5266,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.332031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": null,
+      "name": "ipyleaflet.ipynb",
+      "path": "pyolite kernel examples /ipyleaflet.ipynb",
+      "size": 6341,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-24T12:28:40.336031Z",
+      "format": null,
+      "last_modified": "2021-07-24T12:27:40.495612Z",
+      "mimetype": null,
+      "name": "renderers.ipynb",
+      "path": "pyolite kernel examples /renderers.ipynb",
+      "size": 1711,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2021-07-24T12:28:40.336031Z",
+  "format": "json",
+  "last_modified": "2021-07-24T12:28:40.336031Z",
+  "mimetype": null,
+  "name": "pyolite kernel examples ",
+  "path": "pyolite kernel examples ",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
