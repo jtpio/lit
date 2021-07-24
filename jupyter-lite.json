@@ -81,11 +81,6 @@
     "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
     "fullStaticUrl": "./lab/build",
     "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
-    "settingsOverrides": {
-      "@jupyterlab/docmanager-extension:plugin": {
-        "nameFileOnSave": false
-      }
-    },
     "settingsUrl": "./lab/build/schemas",
     "themesUrl": "./lab/build/themes"
   },
