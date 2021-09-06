@@ -1,9 +1,10 @@
 bqplot
 ipycanvas
+ipylab>=0.5.1,<0.6
 ipyleaflet
 ipywidgets>=7.6
 jupyterlab-darkside-ui>=0.1.9
-jupyterlab-legos-ui>=0.1.7 
+jupyterlab-legos-ui>=0.1.7
 jupyterlab_miami_nights
 jupyterlab==3.1.0rc2
 jupyterlab-drawio
