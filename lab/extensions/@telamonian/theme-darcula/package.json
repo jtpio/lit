@@ -1,6 +1,6 @@
 {
   "name": "@telamonian/theme-darcula",
-  "version": "3.0.1",
+  "version": "3.1.1",
   "description": "Darcula theme for JupyterLab. Modelled after the classic Intellij theme.",
   "keywords": [
     "jupyter",
@@ -65,7 +65,7 @@
     "themePath": "style/index.css",
     "outputDir": "theme-darcula/labextension",
     "_build": {
-      "load": "static/remoteEntry.89879fac6ceba3caa16b.js",
+      "load": "static/remoteEntry.bf6b3192a558615425cd.js",
       "extension": "./extension"
     }
   }
