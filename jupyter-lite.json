@@ -61,6 +61,12 @@
       },
       {
         "extension": "./extension",
+        "load": "static/remoteEntry.d4fbbdbd966396d613a3.js",
+        "name": "ipylab",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
         "load": "static/remoteEntry.8c5efb3516d04e6a5bb7.js",
         "name": "jupyter-leaflet"
       },
