@@ -72,7 +72,7 @@
       },
       {
         "extension": "./extension",
-        "load": "static/remoteEntry.48b35cb4b7a72830f32e.js",
+        "load": "static/remoteEntry.46a8f2d673df456f3c05.js",
         "name": "jupyterlab-cell-flash",
         "style": "./style"
       },

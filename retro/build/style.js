@@ -5,6 +5,7 @@ import '@jupyterlab/application-extension/style/index.js';
 import '@jupyterlab/apputils-extension/style/index.js';
 import '@jupyterlab/codemirror-extension/style/index.js';
 import '@jupyterlab/completer-extension/style/index.js';
+import '@jupyterlab/console-extension/style/index.js';
 import '@jupyterlab/docmanager-extension/style/index.js';
 import '@jupyterlab/filebrowser-extension/style/index.js';
 import '@jupyterlab/fileeditor-extension/style/index.js';

@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-cell-flash",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "JupyterLab extension to show a flash effect when a cell is executed",
   "keywords": [
     "jupyter",
@@ -37,7 +37,7 @@
     "build:prod": "jlpm run build:lib && jlpm run build:labextension",
     "clean": "jlpm run clean:lib",
     "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
-    "clean:labextension": "rimraf jupyterlab-cell-flash/labextension",
+    "clean:labextension": "rimraf jupyterlab_cell_flash/labextension",
     "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
     "eslint": "eslint . --ext .ts,.tsx --fix",
     "eslint:check": "eslint . --ext .ts,.tsx",
@@ -48,12 +48,12 @@
     "watch:src": "tsc -w"
   },
   "dependencies": {
-    "@jupyterlab/application": "^3.0.6",
-    "@jupyterlab/notebook": "^3.0.6",
-    "@jupyterlab/settingregistry": "^3.0.3"
+    "@jupyterlab/application": "^3.1.11",
+    "@jupyterlab/notebook": "^3.1.11",
+    "@jupyterlab/settingregistry": "^3.1.11"
   },
   "devDependencies": {
-    "@jupyterlab/builder": "^3.0.0",
+    "@jupyterlab/builder": "^3.1.12",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
     "eslint": "^7.14.0",
@@ -71,12 +71,23 @@
   "jupyterlab": {
     "extension": true,
     "schemaDir": "schema",
-    "outputDir": "jupyterlab-cell-flash/labextension",
+    "outputDir": "jupyterlab_cell_flash/labextension",
     "_build": {
-      "load": "static/remoteEntry.48b35cb4b7a72830f32e.js",
+      "load": "static/remoteEntry.46a8f2d673df456f3c05.js",
       "extension": "./extension",
       "style": "./style"
     }
+  },
+  "jupyter-releaser": {
+    "hooks": {
+      "before-build-npm": [
+        "python -m pip install jupyterlab~=3.1",
+        "jlpm"
+      ]
+    }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "styleModule": "style/index.js"
 }
