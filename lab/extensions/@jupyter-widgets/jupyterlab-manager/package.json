@@ -92,7 +92,7 @@
     "outputDir": "jupyterlab_widgets/labextension",
     "schemaDir": "./schema",
     "_build": {
-      "load": "static/remoteEntry.636f4a9dd32e899d40bb.js",
+      "load": "static/remoteEntry.f6574b55a223d23e7a04.js",
       "extension": "./extension"
     }
   }
