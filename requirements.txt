@@ -8,7 +8,7 @@ jupyterlab-legos-ui>=0.1.7
 jupyterlab_miami_nights
 jupyterlab==3.1.0rc2
 jupyterlab-drawio
-jupyterlite==0.1.0a6
+jupyterlite==0.1.0a7
 theme-darcula
 jupyterlab-cell-flash
 jupyterlab-fasta>=3,<4
