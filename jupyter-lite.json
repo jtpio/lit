@@ -47,6 +47,13 @@
       {
         "extension": "./extension",
         "liteExtension": true,
+        "load": "static/remoteEntry.fd70d5744d0d2f2d9708.js",
+        "name": "@jupyterlite/echo-kernel",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": true,
         "load": "static/remoteEntry.d7b92dc400b64d3ce903.js",
         "name": "@jupyterlite/p5-kernel-extension",
         "style": "./style"
