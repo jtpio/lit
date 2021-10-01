@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.8",
+    "appVersion": "0.1.0-alpha.10",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -14,26 +14,31 @@
     "federated_extensions": [
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.00c3536d6af81e168e20.js",
         "name": "@dunovank/jupyterlab_darkside_ui"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.fa1625be941f70598937.js",
         "name": "@dunovank/jupyterlab_legos_ui"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.f6574b55a223d23e7a04.js",
         "name": "@jupyter-widgets/jupyterlab-manager"
       },
       {
+        "liteExtension": false,
         "load": "static/remoteEntry.9c506278e545a18a8cc2.js",
         "mimeExtension": "./mimeExtension",
         "name": "@jupyterlab/fasta-extension",
         "style": "./style"
       },
       {
+        "liteExtension": false,
         "load": "static/remoteEntry.a6d92e11d5e8c375cfe6.js",
         "mimeExtension": "./mimeExtension",
         "name": "@jupyterlab/geojson-extension",
@@ -41,49 +46,65 @@
       },
       {
         "extension": "./extension",
+        "liteExtension": true,
+        "load": "static/remoteEntry.d7b92dc400b64d3ce903.js",
+        "name": "@jupyterlite/p5-kernel-extension",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.bf6b3192a558615425cd.js",
         "name": "@telamonian/theme-darcula"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.145e469029155b53b350.js",
         "name": "@timkpaine/jupyterlab_miami_nights"
       },
       {
         "extension": "./extension",
-        "load": "static/remoteEntry.e9a229a6deef8e3c895b.js",
+        "liteExtension": false,
+        "load": "static/remoteEntry.490fbd2bdf754b661d13.js",
         "name": "bqplot"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.5459894d80c1201f22ae.js",
         "name": "ipycanvas"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.d4fbbdbd966396d613a3.js",
         "name": "ipylab",
         "style": "./style"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.8c5efb3516d04e6a5bb7.js",
         "name": "jupyter-leaflet"
       },
       {
         "extension": "./extension",
-        "load": "static/remoteEntry.46a8f2d673df456f3c05.js",
+        "liteExtension": false,
+        "load": "static/remoteEntry.54887df2ce17b699fdd5.js",
         "name": "jupyterlab-cell-flash",
         "style": "./style"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.8f896d6ad92823566c46.js",
         "name": "jupyterlab-drawio",
         "style": "./style"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.722ef6c4bed73383b578.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"

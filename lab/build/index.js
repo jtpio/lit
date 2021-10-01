@@ -12,7 +12,6 @@ const styles = import('./style.js');
 
 const serverExtensions = [
   import('@jupyterlite/javascript-kernel-extension'),
-  import('@jupyterlite/p5-kernel-extension'),
   import('@jupyterlite/pyolite-kernel-extension'),
   import('@jupyterlite/server-extension')
 ];
@@ -51,6 +50,8 @@ async function main() {
   const federatedExtensionPromises = [];
   const federatedMimeExtensionPromises = [];
   const federatedStylePromises = [];
+  const litePluginsToRegister = [];
+  const liteExtensionPromises = [];
 
   // This is all the data needed to load and activate plugins. This should be
   // gathered by the server and put onto the initial page template.
@@ -62,6 +63,10 @@ async function main() {
   const federatedExtensionNames = new Set();
 
   extensions.forEach(data => {
+    if (data.liteExtension) {
+      liteExtensionPromises.push(createModule(data.name, data.extension));
+      return;
+    }
     if (data.extension) {
       federatedExtensionNames.add(data.name);
       federatedExtensionPromises.push(createModule(data.name, data.extension));
@@ -103,16 +108,6 @@ async function main() {
 
   // Handle the mime extensions.
   const mimeExtensions = [];
-  if (!federatedExtensionNames.has('@jupyterlite/iframe-extension')) {
-    try {
-      let ext = require('@jupyterlite/iframe-extension');
-      for (let plugin of activePlugins(ext)) {
-        mimeExtensions.push(plugin);
-      }
-    } catch (e) {
-      console.error(e);
-    }
-  }
   if (!federatedExtensionNames.has('@jupyterlab/json-extension')) {
     try {
       let ext = require('@jupyterlab/json-extension');
@@ -126,6 +121,16 @@ async function main() {
   if (!federatedExtensionNames.has('@jupyterlab/vega5-extension')) {
     try {
       let ext = require('@jupyterlab/vega5-extension');
+      for (let plugin of activePlugins(ext)) {
+        mimeExtensions.push(plugin);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+  if (!federatedExtensionNames.has('@jupyterlite/iframe-extension')) {
+    try {
+      let ext = require('@jupyterlite/iframe-extension');
       for (let plugin of activePlugins(ext)) {
         mimeExtensions.push(plugin);
       }
@@ -147,16 +152,6 @@ async function main() {
   });
 
   // Handled the standard extensions.
-  if (!federatedExtensionNames.has('@jupyterlite/application-extension')) {
-    try {
-      let ext = require('@jupyterlite/application-extension');
-      for (let plugin of activePlugins(ext)) {
-        pluginsToRegister.push(plugin);
-      }
-    } catch (e) {
-      console.error(e);
-    }
-  }
   if (!federatedExtensionNames.has('@jupyterlab/application-extension')) {
     try {
       let ext = require('@jupyterlab/application-extension');
@@ -437,9 +432,29 @@ async function main() {
       console.error(e);
     }
   }
+  if (!federatedExtensionNames.has('@jupyterlab/translation-extension')) {
+    try {
+      let ext = require('@jupyterlab/translation-extension');
+      for (let plugin of activePlugins(ext)) {
+        pluginsToRegister.push(plugin);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
   if (!federatedExtensionNames.has('@jupyterlab/ui-components-extension')) {
     try {
       let ext = require('@jupyterlab/ui-components-extension');
+      for (let plugin of activePlugins(ext)) {
+        pluginsToRegister.push(plugin);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+  if (!federatedExtensionNames.has('@jupyterlite/application-extension')) {
+    try {
+      let ext = require('@jupyterlite/application-extension');
       for (let plugin of activePlugins(ext)) {
         pluginsToRegister.push(plugin);
       }
@@ -460,6 +475,18 @@ async function main() {
     }
   });
 
+  // Add the serverlite federated extensions.
+  const federatedLiteExtensions = await Promise.allSettled(liteExtensionPromises);
+  federatedLiteExtensions.forEach(p => {
+    if (p.status === "fulfilled") {
+      for (let plugin of activePlugins(p.value)) {
+        litePluginsToRegister.push(plugin);
+      }
+    } else {
+      console.error(p.reason);
+    }
+  });
+
   // Load all federated component styles and log errors for any that do not
   (await Promise.allSettled(federatedStylePromises)).filter(({status}) => status === "rejected").forEach(({reason}) => {
      console.error(reason);
@@ -467,7 +494,8 @@ async function main() {
 
   // create the in-browser JupyterLite Server
   const jupyterLiteServer = new JupyterLiteServer({});
-  jupyterLiteServer.registerPluginModules(await Promise.all(serverExtensions));
+  const allServerExtensions = (await Promise.all(serverExtensions)).concat(litePluginsToRegister);
+  jupyterLiteServer.registerPluginModules(allServerExtensions);
   // start the server
   await jupyterLiteServer.start();
 
