@@ -12,6 +12,7 @@ import '@jupyterlab/docmanager-extension/style/index.js';
 import '@jupyterlab/filebrowser-extension/style/index.js';
 import '@jupyterlab/fileeditor-extension/style/index.js';
 import '@jupyterlab/help-extension/style/index.js';
+import '@jupyterlab/htmlviewer-extension/style/index.js';
 import '@jupyterlab/imageviewer-extension/style/index.js';
 import '@jupyterlab/inspector-extension/style/index.js';
 import '@jupyterlab/json-extension/style/index.js';

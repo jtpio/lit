@@ -20,8 +20,6 @@ const mimeExtensionsMods = [
   import('@jupyterlab/vega5-extension')
 ];
 
-const disabled = JSON.parse(PageConfig.getOption('disabledExtensions') || '[]');
-
 async function createModule(scope, module) {
   try {
     const factory = await window._JUPYTERLAB[scope].get(module);
@@ -38,7 +36,7 @@ async function createModule(scope, module) {
 async function main() {
   const mimeExtensions = await Promise.all(mimeExtensionsMods);
 
-  let mods = [
+  let baseMods = [
     // @jupyterlite plugins
     require('@jupyterlite/application-extension'),
     require('@jupyterlite/retro-application-extension'),
@@ -104,7 +102,7 @@ async function main() {
   const page = PageConfig.getOption('retroPage');
   switch (page) {
     case 'tree': {
-      mods = mods.concat([
+      baseMods = baseMods.concat([
         require('@jupyterlab/filebrowser-extension').default.filter(({ id }) =>
           [
             '@jupyterlab/filebrowser-extension:browser',
@@ -122,7 +120,7 @@ async function main() {
       break;
     }
     case 'notebooks': {
-      mods = mods.concat([
+      baseMods = baseMods.concat([
         require('@jupyterlab/completer-extension').default.filter(({ id }) =>
           ['@jupyterlab/completer-extension:notebooks'].includes(id)
         ),
@@ -136,7 +134,7 @@ async function main() {
       break;
     }
     case 'consoles': {
-      mods = mods.concat([
+      baseMods = baseMods.concat([
         require('@jupyterlab/completer-extension').default.filter(({ id }) =>
           ['@jupyterlab/completer-extension:consoles'].includes(id)
         ),
@@ -150,7 +148,7 @@ async function main() {
       break;
     }
     case 'edit': {
-      mods = mods.concat([
+      baseMods = baseMods.concat([
         require('@jupyterlab/completer-extension').default.filter(({ id }) =>
           ['@jupyterlab/completer-extension:files'].includes(id)
         ),
@@ -168,6 +166,7 @@ async function main() {
     }
   }
 
+  const mods = [];
   const federatedExtensionPromises = [];
   const federatedMimeExtensionPromises = [];
   const federatedStylePromises = [];
@@ -216,16 +215,20 @@ async function main() {
 
     let plugins = Array.isArray(exports) ? exports : [exports];
     for (let plugin of plugins) {
-      // skip the plugin (or extension) if disabled
-      if (
-        disabled.includes(plugin.id) ||
-        disabled.includes(plugin.id.split(':')[0])
-      ) {
+      if (PageConfig.Extension.isDisabled(plugin.id)) {
         continue;
       }
       yield plugin;
     }
   }
+
+  // Add the base frontend extensions
+  const baseFrontendMods = await Promise.all(baseMods);
+  baseFrontendMods.forEach(p => {
+    for (let plugin of activePlugins(p)) {
+      mods.push(plugin);
+    }
+  })
 
   // Add the federated mime extensions.
   const federatedMimeExtensions = await Promise.allSettled(federatedMimeExtensionPromises);
@@ -251,6 +254,14 @@ async function main() {
     }
   });
 
+  // Add the base serverlite extensions
+  const baseServerExtensions = await Promise.all(serverExtensions);
+  baseServerExtensions.forEach(p => {
+    for (let plugin of activePlugins(p)) {
+      litePluginsToRegister.push(plugin);
+    }
+  });
+
   // Add the serverlite federated extensions.
   const federatedLiteExtensions = await Promise.allSettled(liteExtensionPromises);
   federatedLiteExtensions.forEach(p => {
@@ -265,8 +276,7 @@ async function main() {
 
   // create the in-browser JupyterLite Server
   const jupyterLiteServer = new JupyterLiteServer({});
-  const allServerExtensions = (await Promise.all(serverExtensions)).concat(litePluginsToRegister);
-  jupyterLiteServer.registerPluginModules(allServerExtensions);
+  jupyterLiteServer.registerPluginModules(litePluginsToRegister);
   // start the server
   await jupyterLiteServer.start();
 

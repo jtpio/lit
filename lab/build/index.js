@@ -18,7 +18,6 @@ const serverExtensions = [
 
 // custom list of disabled plugins
 const disabled = [
-  ...JSON.parse(PageConfig.getOption('disabledExtensions') || '[]'),
   '@jupyterlab/apputils-extension:workspaces',
   '@jupyterlab/application-extension:logo',
   '@jupyterlab/application-extension:main',
@@ -95,8 +94,8 @@ async function main() {
 
     let plugins = Array.isArray(exports) ? exports : [exports];
     for (let plugin of plugins) {
-      // skip the plugin (or extension) if disabled
       if (
+        PageConfig.Extension.isDisabled(plugin.id) ||
         disabled.includes(plugin.id) ||
         disabled.includes(plugin.id.split(':')[0])
       ) {
@@ -255,6 +254,16 @@ async function main() {
   if (!federatedExtensionNames.has('@jupyterlab/help-extension')) {
     try {
       let ext = require('@jupyterlab/help-extension');
+      for (let plugin of activePlugins(ext)) {
+        pluginsToRegister.push(plugin);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
+  if (!federatedExtensionNames.has('@jupyterlab/htmlviewer-extension')) {
+    try {
+      let ext = require('@jupyterlab/htmlviewer-extension');
       for (let plugin of activePlugins(ext)) {
         pluginsToRegister.push(plugin);
       }
@@ -475,6 +484,14 @@ async function main() {
     }
   });
 
+  // Add the base serverlite extensions
+  const baseServerExtensions = await Promise.all(serverExtensions);
+  baseServerExtensions.forEach(p => {
+    for (let plugin of activePlugins(p)) {
+      litePluginsToRegister.push(plugin);
+    }
+  })
+
   // Add the serverlite federated extensions.
   const federatedLiteExtensions = await Promise.allSettled(liteExtensionPromises);
   federatedLiteExtensions.forEach(p => {
@@ -494,8 +511,7 @@ async function main() {
 
   // create the in-browser JupyterLite Server
   const jupyterLiteServer = new JupyterLiteServer({});
-  const allServerExtensions = (await Promise.all(serverExtensions)).concat(litePluginsToRegister);
-  jupyterLiteServer.registerPluginModules(allServerExtensions);
+  jupyterLiteServer.registerPluginModules(litePluginsToRegister);
   // start the server
   await jupyterLiteServer.start();
 
@@ -505,7 +521,8 @@ async function main() {
   // create a full-blown JupyterLab frontend
   const lab = new JupyterLab({
     mimeExtensions,
-    serviceManager
+    serviceManager,
+    disabled
   });
   lab.name = 'JupyterLite';
 
