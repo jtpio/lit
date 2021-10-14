@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.13",
+    "appVersion": "0.1.0-alpha.14",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -54,7 +54,7 @@
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.d7b92dc400b64d3ce903.js",
+        "load": "static/remoteEntry.4ba93726087006d2f61b.js",
         "name": "@jupyterlite/p5-kernel-extension",
         "style": "./style"
       },
