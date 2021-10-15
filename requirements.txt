@@ -8,6 +8,7 @@ jupyterlab-legos-ui>=0.1.7
 jupyterlab_miami_nights
 jupyterlab~=3.1.18
 jupyterlab-drawio
+jupyterlab-plugin-playground~=0.3.0
 jupyterlite==0.1.0a14
 jupyterlite-p5-kernel==0.1.0a12
 jupyterlite-echo-kernel==0.1.1
