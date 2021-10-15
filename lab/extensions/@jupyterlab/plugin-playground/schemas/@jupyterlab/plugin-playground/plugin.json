@@ -1,0 +1,25 @@
+{
+  "title": "Plugin Playground",
+  "properties": {
+    "urls": {
+      "title": "Plugin URLs",
+      "description": "List of URL strings that will be fetched and loaded as plugins automatically on startup.",
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "plugins": {
+      "title": "Plugins",
+      "description": "List of strings of plugin text to load automatically. Line breaks are encoded as '\\n'",
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "type": "object"
+}
