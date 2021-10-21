@@ -105,6 +105,13 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.a7ffe26201ed2eee8505.js",
+        "name": "jupyter-wren-syntax",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.54887df2ce17b699fdd5.js",
         "name": "jupyterlab-cell-flash",
         "style": "./style"
