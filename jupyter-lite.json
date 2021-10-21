@@ -122,6 +122,13 @@
         "load": "static/remoteEntry.722ef6c4bed73383b578.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": true,
+        "load": "static/remoteEntry.580be2cbf60a93bb055a.js",
+        "name": "jupyterlite-xeus-wren",
+        "style": "./style"
       }
     ],
     "fullLabextensionsUrl": "./lab/extensions",
