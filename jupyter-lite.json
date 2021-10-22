@@ -67,6 +67,13 @@
       },
       {
         "extension": "./extension",
+        "liteExtension": true,
+        "load": "static/remoteEntry.0c69e5703596ff1c3cba.js",
+        "name": "@jupyterlite/xeus-lua-kernel",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
         "liteExtension": false,
         "load": "static/remoteEntry.bf6b3192a558615425cd.js",
         "name": "@telamonian/theme-darcula"
