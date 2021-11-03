@@ -9,6 +9,8 @@ import '@jupyterlab/console-extension/style/index.js';
 import '@jupyterlab/docmanager-extension/style/index.js';
 import '@jupyterlab/filebrowser-extension/style/index.js';
 import '@jupyterlab/fileeditor-extension/style/index.js';
+import '@jupyterlab/javascript-extension/style/index.js';
+import '@jupyterlab/json-extension/style/index.js';
 import '@jupyterlab/mainmenu-extension/style/index.js';
 import '@jupyterlab/mathjax2-extension/style/index.js';
 import '@jupyterlab/notebook-extension/style/index.js';

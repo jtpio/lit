@@ -15,6 +15,7 @@ import '@jupyterlab/help-extension/style/index.js';
 import '@jupyterlab/htmlviewer-extension/style/index.js';
 import '@jupyterlab/imageviewer-extension/style/index.js';
 import '@jupyterlab/inspector-extension/style/index.js';
+import '@jupyterlab/javascript-extension/style/index.js';
 import '@jupyterlab/json-extension/style/index.js';
 import '@jupyterlab/launcher-extension/style/index.js';
 import '@jupyterlab/logconsole-extension/style/index.js';

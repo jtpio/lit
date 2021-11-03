@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.14",
+    "appVersion": "0.1.0-alpha.15",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [

@@ -118,6 +118,16 @@ async function main() {
       console.error(e);
     }
   }
+  if (!federatedExtensionNames.has('@jupyterlab/javascript-extension')) {
+    try {
+      let ext = require('@jupyterlab/javascript-extension');
+      for (let plugin of activePlugins(ext)) {
+        mimeExtensions.push(plugin);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
   if (!federatedExtensionNames.has('@jupyterlab/vega5-extension')) {
     try {
       let ext = require('@jupyterlab/vega5-extension');
