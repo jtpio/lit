@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.16",
+    "appVersion": "0.1.0-alpha.19",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -15,13 +15,13 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.00c3536d6af81e168e20.js",
+        "load": "static/remoteEntry.f6b4b8992e1a899823b1.js",
         "name": "@dunovank/jupyterlab_darkside_ui"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.fa1625be941f70598937.js",
+        "load": "static/remoteEntry.c7ec9e98d0481c05e259.js",
         "name": "@dunovank/jupyterlab_legos_ui"
       },
       {
@@ -68,8 +68,15 @@
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.0c69e5703596ff1c3cba.js",
+        "load": "static/remoteEntry.8326538f2f0a7c1ebd2d.js",
         "name": "@jupyterlite/xeus-lua-kernel",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": true,
+        "load": "static/remoteEntry.5aee68a83eb92c7d0941.js",
+        "name": "@jupyterlite/xeus-wren-kernel",
         "style": "./style"
       },
       {
@@ -87,26 +94,26 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.490fbd2bdf754b661d13.js",
+        "load": "static/remoteEntry.12ad22690794c9ade54e.js",
         "name": "bqplot"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.51b89f201a0af1cc6ef5.js",
+        "load": "static/remoteEntry.5ffed1c4b9b9ce1f7b00.js",
         "name": "ipycanvas"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.d4fbbdbd966396d613a3.js",
+        "load": "static/remoteEntry.a6ad1d97a2eac159cfcf.js",
         "name": "ipylab",
         "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.8c5efb3516d04e6a5bb7.js",
+        "load": "static/remoteEntry.8f5cefaa26fbae099326.js",
         "name": "jupyter-leaflet"
       },
       {
@@ -133,16 +140,9 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.722ef6c4bed73383b578.js",
+        "load": "static/remoteEntry.320cd506ee27637bd123.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": true,
-        "load": "static/remoteEntry.580be2cbf60a93bb055a.js",
-        "name": "jupyterlite-xeus-wren",
-        "style": "./style"
       }
     ],
     "fullLabextensionsUrl": "./lab/extensions",

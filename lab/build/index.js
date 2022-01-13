@@ -128,6 +128,16 @@ async function main() {
       console.error(e);
     }
   }
+  if (!federatedExtensionNames.has('@jupyterlab/pdf-extension')) {
+    try {
+      let ext = require('@jupyterlab/pdf-extension');
+      for (let plugin of activePlugins(ext)) {
+        mimeExtensions.push(plugin);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
   if (!federatedExtensionNames.has('@jupyterlab/vega5-extension')) {
     try {
       let ext = require('@jupyterlab/vega5-extension');
@@ -535,9 +545,17 @@ async function main() {
     serviceManager,
     disabled
   });
-  lab.name = 'JupyterLite';
+  lab.name = PageConfig.getOption('appName') || 'JupyterLite';
 
   lab.registerPluginModules(pluginsToRegister);
+
+  // Expose global app instance when in dev mode or when toggled explicitly.
+  const exposeAppInBrowser =
+    (PageConfig.getOption('exposeAppInBrowser') || '').toLowerCase() === 'true';
+
+  if (exposeAppInBrowser) {
+    window.jupyterapp = lab;
+  }
 
   /* eslint-disable no-console */
   console.log('Starting app');
