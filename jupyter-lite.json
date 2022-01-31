@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.19",
+    "appVersion": "0.1.0-alpha.20",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -32,14 +32,14 @@
       },
       {
         "liteExtension": false,
-        "load": "static/remoteEntry.9c506278e545a18a8cc2.js",
+        "load": "static/remoteEntry.cdf08c015a8192358158.js",
         "mimeExtension": "./mimeExtension",
         "name": "@jupyterlab/fasta-extension",
         "style": "./style"
       },
       {
         "liteExtension": false,
-        "load": "static/remoteEntry.a6d92e11d5e8c375cfe6.js",
+        "load": "static/remoteEntry.b75c764d727b50009261.js",
         "mimeExtension": "./mimeExtension",
         "name": "@jupyterlab/geojson-extension",
         "style": "./style"
