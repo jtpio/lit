@@ -75,6 +75,13 @@
       {
         "extension": "./extension",
         "liteExtension": true,
+        "load": "static/remoteEntry.74b1e2f5db6a00432db0.js",
+        "name": "@jupyterlite/xeus-sqlite-kernel",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": true,
         "load": "static/remoteEntry.5aee68a83eb92c7d0941.js",
         "name": "@jupyterlite/xeus-wren-kernel",
         "style": "./style"
