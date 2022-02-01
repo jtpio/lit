@@ -1,7 +1,7 @@
 {
   "name": "@jupyterlite/xeus-sqlite-kernel",
-  "version": "0.1.0",
-  "description": "A sqlite kernel for JupyterLite, powered by Xeus",
+  "version": "0.1.1",
+  "description": "A SQLite kernel for JupyterLite, powered by Xeus",
   "keywords": [
     "jupyter",
     "jupyterlab",
@@ -91,7 +91,7 @@
       }
     },
     "_build": {
-      "load": "static/remoteEntry.74b1e2f5db6a00432db0.js",
+      "load": "static/remoteEntry.cdcaee8055a96e376858.js",
       "extension": "./extension",
       "style": "./style"
     }

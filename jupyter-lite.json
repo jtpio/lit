@@ -75,7 +75,7 @@
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.74b1e2f5db6a00432db0.js",
+        "load": "static/remoteEntry.cdcaee8055a96e376858.js",
         "name": "@jupyterlite/xeus-sqlite-kernel",
         "style": "./style"
       },
