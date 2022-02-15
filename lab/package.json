@@ -1,13 +1,7 @@
 {
   "name": "@jupyterlite/app-lab",
-  "version": "0.1.0-alpha.22",
+  "version": "0.1.0-alpha.23",
   "private": true,
-  "scripts": {
-    "build:test": "tsc --build tsconfig.test.json",
-    "test:cov": "jest --collect-coverage",
-    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
-    "test:debug:watch": "node --inspect-brk node_modules/.bin/jest --runInBand --watch"
-  },
   "resolutions": {
     "@jupyterlab/application": "~3.2.9",
     "@jupyterlab/application-extension": "~3.2.9",
@@ -75,31 +69,31 @@
     "@jupyterlab/ui-components": "~3.2.9",
     "@jupyterlab/ui-components-extension": "~3.2.9",
     "@jupyterlab/vega5-extension": "~3.2.9",
-    "@jupyterlite/application-extension": "~0.1.0-alpha.22",
-    "@jupyterlite/iframe-extension": "~0.1.0-alpha.22",
-    "@jupyterlite/javascript-kernel": "~0.1.0-alpha.22",
-    "@jupyterlite/javascript-kernel-extension": "~0.1.0-alpha.22",
-    "@jupyterlite/kernel": "~0.1.0-alpha.22",
-    "@jupyterlite/pyolite-kernel-extension": "~0.1.0-alpha.22",
-    "@jupyterlite/server": "~0.1.0-alpha.22",
-    "@jupyterlite/server-extension": "~0.1.0-alpha.22",
-    "@jupyterlite/ui-components": "~0.1.0-alpha.22",
-    "@lumino/algorithm": "~1.6.2",
-    "@lumino/application": "~1.23.2",
-    "@lumino/commands": "~1.15.2",
-    "@lumino/coreutils": "~1.8.2",
-    "@lumino/disposable": "~1.7.2",
-    "@lumino/domutils": "~1.5.2",
-    "@lumino/dragdrop": "~1.10.2",
-    "@lumino/messaging": "~1.7.2",
-    "@lumino/properties": "~1.5.2",
-    "@lumino/signaling": "~1.7.2",
-    "@lumino/virtualdom": "~1.11.2",
-    "@lumino/widgets": "~1.26.2",
+    "@jupyterlite/application-extension": "~0.1.0-alpha.23",
+    "@jupyterlite/iframe-extension": "~0.1.0-alpha.23",
+    "@jupyterlite/javascript-kernel": "~0.1.0-alpha.23",
+    "@jupyterlite/javascript-kernel-extension": "~0.1.0-alpha.23",
+    "@jupyterlite/kernel": "~0.1.0-alpha.23",
+    "@jupyterlite/pyolite-kernel-extension": "~0.1.0-alpha.23",
+    "@jupyterlite/server": "~0.1.0-alpha.23",
+    "@jupyterlite/server-extension": "~0.1.0-alpha.23",
+    "@jupyterlite/ui-components": "~0.1.0-alpha.23",
+    "@lumino/algorithm": "~1.9.1",
+    "@lumino/application": "~1.28.1",
+    "@lumino/commands": "~1.20.0",
+    "@lumino/coreutils": "~1.12.0",
+    "@lumino/disposable": "~1.10.1",
+    "@lumino/domutils": "~1.8.1",
+    "@lumino/dragdrop": "~1.14.0",
+    "@lumino/messaging": "~1.10.1",
+    "@lumino/properties": "~1.8.1",
+    "@lumino/signaling": "~1.10.1",
+    "@lumino/virtualdom": "~1.14.1",
+    "@lumino/widgets": "~1.31.1",
     "es6-promise": "^4.2.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "yjs": "^13.5.23"
+    "yjs": "^13.5.27"
   },
   "dependencies": {
     "@jupyterlab/application": "~3.2.9",
@@ -138,26 +132,17 @@
     "@jupyterlab/translation-extension": "~3.2.9",
     "@jupyterlab/ui-components-extension": "~3.2.9",
     "@jupyterlab/vega5-extension": "~3.2.9",
-    "@jupyterlite/application-extension": "^0.1.0-alpha.22",
-    "@jupyterlite/iframe-extension": "^0.1.0-alpha.22",
-    "@jupyterlite/javascript-kernel-extension": "^0.1.0-alpha.22",
-    "@jupyterlite/pyolite-kernel-extension": "^0.1.0-alpha.22",
-    "@jupyterlite/server": "^0.1.0-alpha.22",
-    "@jupyterlite/server-extension": "^0.1.0-alpha.22",
-    "@jupyterlite/ui-components": "^0.1.0-alpha.22",
+    "@jupyterlite/application-extension": "^0.1.0-alpha.23",
+    "@jupyterlite/iframe-extension": "^0.1.0-alpha.23",
+    "@jupyterlite/javascript-kernel-extension": "^0.1.0-alpha.23",
+    "@jupyterlite/pyolite-kernel-extension": "^0.1.0-alpha.23",
+    "@jupyterlite/server": "^0.1.0-alpha.23",
+    "@jupyterlite/server-extension": "^0.1.0-alpha.23",
+    "@jupyterlite/ui-components": "^0.1.0-alpha.23",
     "es6-promise": "~4.2.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "yjs": "^13.5.6"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.12.1",
-    "@jupyterlab/testutils": "~3.2.9",
-    "@types/jest": "^26.0.10",
-    "jest": "^26.4.2",
-    "watch": "~1.0.2",
-    "whatwg-fetch": "^3.0.0"
   },
   "jupyterlab": {
     "extensions": [
@@ -257,5 +242,10 @@
       "@jupyterlab/vega5-extension": ""
     },
     "linkedPackages": {}
+  },
+  "jupyterlite": {
+    "pages": [
+      "index"
+    ]
   }
 }

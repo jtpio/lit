@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.22",
+    "appVersion": "0.1.0-alpha.23",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -135,13 +135,6 @@
         "liteExtension": false,
         "load": "static/remoteEntry.54887df2ce17b699fdd5.js",
         "name": "jupyterlab-cell-flash",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.8f896d6ad92823566c46.js",
-        "name": "jupyterlab-drawio",
         "style": "./style"
       },
       {
