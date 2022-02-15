@@ -1,5 +1,7 @@
 # 🔥 LIT 🔥
 
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jtpio.github.io/lit)
+
 A custom JupyterLite deployed as a static site to GitHub Pages.
 
 ## ✨ Try it in your browser ✨
