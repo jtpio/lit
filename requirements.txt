@@ -6,9 +6,9 @@ ipywidgets>=7.6
 jupyterlab-darkside-ui>=0.1.9
 jupyterlab-legos-ui>=0.1.7
 jupyterlab_miami_nights
-jupyterlab~=3.2.7
+jupyterlab~=3.3.0
 jupyterlab-plugin-playground~=0.3.0
-jupyterlite==0.1.0b0
+jupyterlite==0.1.0b1
 jupyterlite-p5-kernel==0.1.0a12
 jupyterlite-echo-kernel==0.1.1
 jupyterlite-xeus-lua==0.2.0
