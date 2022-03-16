@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.2",
+    "appVersion": "0.1.0-beta.3",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -15,19 +15,19 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.f6b4b8992e1a899823b1.js",
+        "load": "static/remoteEntry.4eb096cf8bd3773ebb1c.js",
         "name": "@dunovank/jupyterlab_darkside_ui"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.c7ec9e98d0481c05e259.js",
+        "load": "static/remoteEntry.5eb69d810aea54fd3e40.js",
         "name": "@dunovank/jupyterlab_legos_ui"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.f6574b55a223d23e7a04.js",
+        "load": "static/remoteEntry.3421943a0ce73f10909d.js",
         "name": "@jupyter-widgets/jupyterlab-manager"
       },
       {
