@@ -1,6 +1,6 @@
 {
   "name": "@dunovank/jupyterlab_legos_ui",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "legos light ui and syntax theme for jupyterlab",
   "keywords": [
     "jupyter",
@@ -65,7 +65,7 @@
     "themePath": "style/index.css",
     "outputDir": "jupyterlab_legos_ui/labextension",
     "_build": {
-      "load": "static/remoteEntry.5eb69d810aea54fd3e40.js",
+      "load": "static/remoteEntry.6090313578ecf6e4a377.js",
       "extension": "./extension"
     }
   }

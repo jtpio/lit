@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.3",
+    "appVersion": "0.1.0-beta.4",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -15,13 +15,13 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.4eb096cf8bd3773ebb1c.js",
+        "load": "static/remoteEntry.34076797a81ac3b5e67a.js",
         "name": "@dunovank/jupyterlab_darkside_ui"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.5eb69d810aea54fd3e40.js",
+        "load": "static/remoteEntry.6090313578ecf6e4a377.js",
         "name": "@dunovank/jupyterlab_legos_ui"
       },
       {
@@ -140,7 +140,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.f372bf1de02fb50ae6e0.js",
+        "load": "static/remoteEntry.730e734f0ef88fa439e8.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"
       }
