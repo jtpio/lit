@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.4",
+    "appVersion": "0.1.0-beta.5",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -120,7 +120,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.8f5cefaa26fbae099326.js",
+        "load": "static/remoteEntry.6375e54406c677384240.js",
         "name": "jupyter-leaflet"
       },
       {
