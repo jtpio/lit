@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-05-02T14:31:22.393592Z",
+      "created": "2022-05-02T14:33:28.642820Z",
       "format": null,
-      "last_modified": "2022-05-02T14:30:03.764546Z",
+      "last_modified": "2022-05-02T14:31:42.332735Z",
       "mimetype": null,
       "name": "2021-10-29-pydata-global.ipynb",
       "path": "talks/2021-10-29-pydata-global.ipynb",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-05-02T14:31:22.393592Z",
+      "created": "2022-05-02T14:33:28.638820Z",
       "format": null,
-      "last_modified": "2022-05-02T14:30:03.764546Z",
+      "last_modified": "2022-05-02T14:31:42.332735Z",
       "mimetype": null,
       "name": "2021-09-30-jupyter-releaser-demo.ipynb",
       "path": "talks/2021-09-30-jupyter-releaser-demo.ipynb",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-05-02T14:31:22.393592Z",
+      "created": "2022-05-02T14:33:28.638820Z",
       "format": null,
-      "last_modified": "2022-05-02T14:30:03.760546Z",
+      "last_modified": "2022-05-02T14:31:42.328729Z",
       "mimetype": null,
       "name": "2021-06-03-pydata-paris.ipynb",
       "path": "talks/2021-06-03-pydata-paris.ipynb",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-05-02T14:31:22.393592Z",
+      "created": "2022-05-02T14:33:28.642820Z",
       "format": null,
-      "last_modified": "2022-05-02T14:30:03.764546Z",
+      "last_modified": "2022-05-02T14:31:42.332735Z",
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "talks/README.md",
@@ -49,9 +49,9 @@
       "writable": true
     }
   ],
-  "created": "2022-05-02T14:31:22.393592Z",
+  "created": "2022-05-02T14:33:28.642820Z",
   "format": "json",
-  "last_modified": "2022-05-02T14:31:22.393592Z",
+  "last_modified": "2022-05-02T14:33:28.642820Z",
   "mimetype": null,
   "name": "talks",
   "path": "talks",
