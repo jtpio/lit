@@ -2,21 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-04-15T11:21:16.546592Z",
+      "created": "2022-05-02T14:31:22.393592Z",
       "format": null,
-      "last_modified": "2022-04-15T11:19:39.000855Z",
-      "mimetype": null,
-      "name": "2021-06-03-pydata-paris.ipynb",
-      "path": "talks/2021-06-03-pydata-paris.ipynb",
-      "size": 11535,
-      "type": "notebook",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2022-04-15T11:21:16.546592Z",
-      "format": null,
-      "last_modified": "2022-04-15T11:19:39.004855Z",
+      "last_modified": "2022-05-02T14:30:03.764546Z",
       "mimetype": null,
       "name": "2021-10-29-pydata-global.ipynb",
       "path": "talks/2021-10-29-pydata-global.ipynb",
@@ -26,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-04-15T11:21:16.546592Z",
+      "created": "2022-05-02T14:31:22.393592Z",
       "format": null,
-      "last_modified": "2022-04-15T11:19:39.004855Z",
+      "last_modified": "2022-05-02T14:30:03.764546Z",
       "mimetype": null,
       "name": "2021-09-30-jupyter-releaser-demo.ipynb",
       "path": "talks/2021-09-30-jupyter-releaser-demo.ipynb",
@@ -38,9 +26,21 @@
     },
     {
       "content": null,
-      "created": "2022-04-15T11:21:16.550592Z",
+      "created": "2022-05-02T14:31:22.393592Z",
       "format": null,
-      "last_modified": "2022-04-15T11:19:39.004855Z",
+      "last_modified": "2022-05-02T14:30:03.760546Z",
+      "mimetype": null,
+      "name": "2021-06-03-pydata-paris.ipynb",
+      "path": "talks/2021-06-03-pydata-paris.ipynb",
+      "size": 11535,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-05-02T14:31:22.393592Z",
+      "format": null,
+      "last_modified": "2022-05-02T14:30:03.764546Z",
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "talks/README.md",
@@ -49,9 +49,9 @@
       "writable": true
     }
   ],
-  "created": "2022-04-15T11:21:16.550592Z",
+  "created": "2022-05-02T14:31:22.393592Z",
   "format": "json",
-  "last_modified": "2022-04-15T11:21:16.550592Z",
+  "last_modified": "2022-05-02T14:31:22.393592Z",
   "mimetype": null,
   "name": "talks",
   "path": "talks",
