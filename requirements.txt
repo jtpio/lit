@@ -7,7 +7,7 @@ jupyterlab-darkside-ui>=0.1.9
 jupyterlab-legos-ui>=0.1.7
 jupyterlab_miami_nights
 jupyterlab~=3.3.0
-jupyterlab-filesystem-acccess~=0.4.0
+jupyterlab-filesystem-access~=0.4.0
 jupyterlab-plugin-playground~=0.3.0
 jupyterlab-webrtc-docprovider~=0.1.1
 jupyterlite==0.1.0b7
