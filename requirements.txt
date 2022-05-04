@@ -9,7 +9,7 @@ jupyterlab_miami_nights
 jupyterlab~=3.3.0
 jupyterlab-plugin-playground~=0.3.0
 jupyterlab-webrtc-docprovider~=0.1.1
-jupyterlite==0.1.0b6
+jupyterlite==0.1.0b7
 jupyterlite-p5-kernel==0.1.0a12
 jupyterlite-echo-kernel==0.1.1
 jupyterlite-xeus-lua==0.2.0
