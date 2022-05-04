@@ -147,6 +147,13 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.8fe64f9bb3e5c3f2600f.js",
+        "name": "jupyterlab-filesystem-access",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.730e734f0ef88fa439e8.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"
