@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "LIT",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.6",
+    "appVersion": "0.1.0-beta.7",
     "baseUrl": "./",
     "collaborative": true,
     "disabledExtensions": [
@@ -114,7 +114,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.d3f93277b65928cb96a9.js",
+        "load": "static/remoteEntry.84a5fbcaf1830473e5a0.js",
         "name": "ipycanvas"
       },
       {
@@ -156,7 +156,8 @@
     "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
     "fullStaticUrl": "./build",
     "licensesUrl": "./lab/api/licenses",
-    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe"
+    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
+    "preferredPath": "/"
   },
   "jupyter-lite-schema-version": 0
 }
