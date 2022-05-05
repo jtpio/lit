@@ -1,0 +1,18 @@
+{
+  "@jupyterlab/shortcuts-extension:shortcuts": {
+    "shortcuts": [
+      {
+        "args": {},
+        "command": "console:run-forced",
+        "keys": ["Enter"],
+        "selector": ".jp-CodeConsole[data-jp-interaction-mode='notebook'] .jp-CodeConsole-promptCell"
+      },
+      {
+        "args": {},
+        "command": "console:run-forced",
+        "keys": ["Enter"],
+        "selector": ".jp-CodeConsole[data-jp-interaction-mode='terminal'] .jp-CodeConsole-promptCell"
+      }
+    ]
+  }
+}
