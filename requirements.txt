@@ -3,7 +3,6 @@ ipycanvas
 ipylab>=0.6
 ipyleaflet
 ipywidgets>=8.0
-jupyterlab-darkside-ui>=0.1.9
 jupyterlab-legos-ui>=0.1.7
 jupyterlab_miami_nights
 jupyterlab~=3.4.7
