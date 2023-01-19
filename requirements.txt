@@ -8,7 +8,7 @@ jupyterlab~=3.4.7
 jupyterlab-filesystem-access~=0.5.2
 jupyterlab-plugin-playground~=0.3.0
 jupyterlab-webrtc-docprovider~=0.1.1
-jupyterlite==0.1.0b17
+jupyterlite==0.1.0b18
 jupyterlite-p5-kernel==0.1.0a12
 jupyterlite-echo-kernel==0.1.1
 jupyterlite-xeus-lua==0.2.0
