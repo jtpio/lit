@@ -11,7 +11,7 @@ jupyterlab-webrtc-docprovider~=0.1.1
 jupyterlite==0.1.0b18
 jupyterlite-p5-kernel==0.1.0a12
 jupyterlite-echo-kernel==0.1.1
-jupyterlite-xeus-lua==0.2.0
+jupyterlite-xeus-lua==0.3.3
 jupyterlite-xeus-wren==0.1.2
 jupyterlite-xeus-sqlite==0.1.2
 jupyter-wren-syntax==0.1.1
