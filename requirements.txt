@@ -5,7 +5,7 @@ ipyleaflet
 ipywidgets>=8.0
 jupyterlab_miami_nights
 jupyterlab~=3.4.7
-jupyterlab-filesystem-access~=0.5.2
+jupyterlab-filesystem-access~=0.5.3
 jupyterlab-plugin-playground~=0.3.0
 jupyterlab-webrtc-docprovider~=0.1.1
 jupyterlite==0.1.0b18
