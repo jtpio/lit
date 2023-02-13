@@ -12,7 +12,7 @@ jupyterlite==0.1.0b18
 jupyterlite-p5-kernel==0.1.1
 jupyterlite-echo-kernel==0.1.1
 jupyterlite-xeus-lua==0.3.3
-jupyterlite-xeus-wren==0.1.2
+jupyterlite-xeus-wren==0.2.1
 jupyterlite-xeus-sqlite==0.2.1
 jupyter-wren-syntax==0.1.1
 theme-darcula
