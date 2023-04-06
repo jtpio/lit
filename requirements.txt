@@ -6,6 +6,7 @@ ipywidgets>=8.0
 jupyterlab_miami_nights
 jupyterlab~=3.5.3
 jupyterlab-filesystem-access~=0.5.3
+jupyterlab-open-url-parameter~=0.1.0
 jupyterlab-plugin-playground~=0.4.0
 jupyterlab-webrtc-docprovider~=0.1.1
 jupyterlite-core==0.1.0
