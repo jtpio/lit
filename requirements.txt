@@ -4,7 +4,7 @@ ipylab>=0.6
 ipyleaflet
 ipywidgets>=8.0
 jupyterlab_miami_nights
-jupyterlab~=3.5.3
+jupyterlab~=4.0.5
 jupyterlab-filesystem-access~=0.5.3
 jupyterlab-open-url-parameter~=0.1.0
 jupyterlab-plugin-playground~=0.4.0
