@@ -9,8 +9,8 @@ jupyterlab-filesystem-access~=0.5.3
 jupyterlab-open-url-parameter~=0.1.0
 jupyterlab-plugin-playground~=0.4.0
 jupyterlab-myst>=2.0.2
-jupyterlite-core==0.2.0a0
-jupyterlite-javascript-kernel==0.2.0a0
+jupyterlite-core==0.2.0a1
+jupyterlite-javascript-kernel==0.2.0a1
 jupyterlite-p5-kernel==0.1.1
 jupyterlite-echo-kernel==0.2.0
 jupyterlite-xeus-lua==0.3.3
