@@ -16,7 +16,7 @@ jupyterlite-p5-kernel==0.1.1
 jupyterlite-echo-kernel==0.2.0
 jupyterlite-xeus-lua==0.3.3
 jupyterlite-xeus-sqlite==0.2.1
-jupyterlite-xeus-python==0.9.5
+jupyterlite-xeus-python==1.0.0a0
 theme-darcula
 jupyterlab-cell-flash
 jupyterlab-fasta>=3,<4
