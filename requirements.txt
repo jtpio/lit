@@ -8,8 +8,8 @@ jupyterlab~=4.0.11
 jupyterlab-filesystem-access~=0.6.0
 jupyterlab-open-url-parameter~=0.2.0
 jupyterlab-plugin-playground~=0.4.0
-jupyterlite-core==0.2.2
-jupyterlite-javascript-kernel==0.2.2
+jupyterlite-core==0.2.3
+jupyterlite-javascript-kernel==0.2.3
 jupyterlite-pyodide-kernel==0.2.1
 jupyterlite-p5-kernel==0.1.1
 jupyterlite-echo-kernel==0.2.0
