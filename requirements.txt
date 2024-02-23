@@ -1,3 +1,4 @@
+anywidget
 bqplot
 ipycanvas
 ipylab>=1.0
