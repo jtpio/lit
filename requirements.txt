@@ -17,7 +17,7 @@ jupyterlite-echo-kernel==0.2.0
 jupyterlite-xeus>=0.2.0a0
 jupyterlite-xeus-lua==0.3.3
 jupyterlite-xeus-sqlite==0.2.1
-notebook~=7.2.0
+notebook~=7.2.1
 jupyterlab-cell-flash
 jupyterlab-fasta>=3,<4
 jupyterlab-geojson>=3,<4
