@@ -7,6 +7,7 @@
       "@jupyterlab/server-proxy",
       "jupyterlab-server-proxy",
       "nbdime-jupyterlab"
-    ]
+    ],
+    "terminalsAvailable": true
   }
 }
