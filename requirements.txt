@@ -17,7 +17,7 @@ jupyterlite-p5-kernel==0.1.1
 jupyterlite-echo-kernel==0.3.0
 jupyterlite-terminal==0.2.2
 jupyterlite-xeus>=4.0.0
-notebook~=7.4.4
+notebook~=7.4.5
 jupyterlab-cell-flash
 jupyterlab-fasta>=3,<4
 jupyterlab-geojson>=3,<4
