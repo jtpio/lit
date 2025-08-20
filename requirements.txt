@@ -16,7 +16,7 @@ jupyterlite-pyodide-kernel==0.7.0a1
 jupyterlite-p5-kernel==0.1.1
 jupyterlite-echo-kernel==0.3.0
 # jupyterlite-terminal==1.0.0
-# jupyterlite-xeus>=4.0.0
+jupyterlite-xeus>=4.0.0
 notebook==7.5.0a2
 jupyterlab-cell-flash
 jupyterlab-fasta>=3,<4
