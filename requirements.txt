@@ -6,7 +6,7 @@ ipyleaflet
 ipywidgets>=8.1
 jupyterlab_miami_nights>=0.4.0
 jupyterlab-filesystem-access~=0.7.0
-jupyterlab==4.5.0b0
+jupyterlab==4.5.0b1
 jupyterlab-open-url-parameter~=0.3.0
 jupyterlab-plugin-playground~=0.4.0
 jupyterlite-ai==0.8.1
@@ -17,7 +17,7 @@ jupyterlite-p5-kernel==0.1.1
 jupyterlite-echo-kernel==0.3.0
 # jupyterlite-terminal==1.0.0
 jupyterlite-xeus>=4.2.0
-notebook==7.5.0b0
+notebook==7.5.0b1
 jupyterlab-cell-flash
 jupyterlab-fasta>=3,<4
 jupyterlab-geojson>=3,<4
