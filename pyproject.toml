@@ -27,4 +27,5 @@ dependencies = [
     "jupyterlab-fasta>=3,<4",
     "jupyterlab-geojson>=3,<4",
     "plotly>=6,<7",
+    "jupyterlab-github>=4.0.0",
 ]

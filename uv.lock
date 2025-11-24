@@ -978,6 +978,18 @@ wheels = [
 ]
 
 [[package]]
+name = "jupyterlab-github"
+version = "4.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jupyterlab" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7a/fb/1a5efe92ecc2e93a5649c4a2f22eac99bdee14175818e91351adf05ddec1/jupyterlab_github-4.0.0.tar.gz", hash = "sha256:fab84e981684753f35bc5b55f8e84a30ffbe5b642d7b2d2721e4a048896afa54", size = 594752, upload-time = "2023-08-03T14:12:07.49Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/40/e8/c5f6e0cf98b26d220db468c079ed7ad4e58ac232920c186cee484148c8af/jupyterlab_github-4.0.0-py3-none-any.whl", hash = "sha256:7189533c3d50f7aa11729ffc3302dd10e3783a526a719b292249cce92a034b79", size = 28655, upload-time = "2023-08-03T14:12:04.925Z" },
+]
+
+[[package]]
 name = "jupyterlab-miami-nights"
 version = "0.4.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1155,6 +1167,7 @@ dependencies = [
     { name = "jupyterlab-fasta" },
     { name = "jupyterlab-filesystem-access" },
     { name = "jupyterlab-geojson" },
+    { name = "jupyterlab-github" },
     { name = "jupyterlab-miami-nights" },
     { name = "jupyterlab-open-url-parameter" },
     { name = "jupyterlite-ai" },
@@ -1183,6 +1196,7 @@ requires-dist = [
     { name = "jupyterlab-fasta", specifier = ">=3,<4" },
     { name = "jupyterlab-filesystem-access", specifier = ">=0.7.0" },
     { name = "jupyterlab-geojson", specifier = ">=3,<4" },
+    { name = "jupyterlab-github", specifier = ">=4.0.0" },
     { name = "jupyterlab-miami-nights", specifier = ">=0.4.0" },
     { name = "jupyterlab-open-url-parameter", specifier = ">=0.3.0" },
     { name = "jupyterlite-ai", specifier = ">=0.9.1" },
