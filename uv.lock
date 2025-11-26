@@ -1127,7 +1127,7 @@ wheels = [
 
 [[package]]
 name = "jupyterlite-xeus"
-version = "4.3.0rc3"
+version = "4.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "empack" },
@@ -1136,9 +1136,9 @@ dependencies = [
     { name = "requests" },
     { name = "traitlets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/11/1f/de94ea7cb2ee349814f8bb8192fec94ecaed741d0b39f68be42ec6ff2e48/jupyterlite_xeus-4.3.0rc3.tar.gz", hash = "sha256:1ac2c5fe56d138a23e80bfd89921d64bcace975f79ee94db43924c639a2c04ba", size = 10423358, upload-time = "2025-11-25T09:27:19.908Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/79/64/81b3a2dea71e4f2e9b2e76caee4d7d62842dc4f6d2b594fbbcd521ad1dd0/jupyterlite_xeus-4.3.0.tar.gz", hash = "sha256:941be63465b5c8afba2e07008f549d2ff4adb38ce66455b10a307e05058bb832", size = 10423454, upload-time = "2025-11-26T13:49:08.601Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/39/b0/9c404e71d6c1397d3ebac3814a841e2cbab17cf2dd5242a8ccb03ac0e220/jupyterlite_xeus-4.3.0rc3-py3-none-any.whl", hash = "sha256:375b98fe48c92d55defad709d3b419886f542960787c0fb0d9b266049d7f77b1", size = 9597137, upload-time = "2025-11-25T09:27:16.512Z" },
+    { url = "https://files.pythonhosted.org/packages/3d/6a/21078798f3493245cd62ab7f051bb9e4f9a61ade982d49ca1b707dff2b0a/jupyterlite_xeus-4.3.0-py3-none-any.whl", hash = "sha256:61e47ca1ff05e85cf26bf564b9d39cc316908f7665dbc9cbfcf0d7fbdd40dfda", size = 9596913, upload-time = "2025-11-26T13:49:05.877Z" },
 ]
 
 [[package]]
@@ -1206,7 +1206,7 @@ requires-dist = [
     { name = "jupyterlite-p5-kernel", specifier = ">=0.1.1" },
     { name = "jupyterlite-pyodide-kernel", specifier = ">=0.7.0" },
     { name = "jupyterlite-terminal", specifier = ">=1.0.0" },
-    { name = "jupyterlite-xeus", specifier = ">=4.3.0rc3" },
+    { name = "jupyterlite-xeus", specifier = ">=4.3.0" },
     { name = "notebook", specifier = ">=7.5.0" },
     { name = "plotly", specifier = ">=6,<7" },
 ]

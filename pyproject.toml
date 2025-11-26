@@ -21,7 +21,7 @@ dependencies = [
     "jupyterlite-p5-kernel>=0.1.1",
     "jupyterlite-echo-kernel>=0.4.0a0",
     "jupyterlite-terminal>=1.0.0",
-    "jupyterlite-xeus>=4.3.0rc3",
+    "jupyterlite-xeus>=4.3.0",
     "notebook>=7.5.0",
     "jupyterlab-cell-flash",
     "jupyterlab-fasta>=3,<4",
