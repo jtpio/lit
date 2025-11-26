@@ -1061,16 +1061,16 @@ wheels = [
 
 [[package]]
 name = "jupyterlite-core"
-version = "0.7.0rc2"
+version = "0.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "doit" },
     { name = "jupyter-core" },
     { name = "pycparser", marker = "platform_python_implementation == 'PyPy'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c6/1d/8bb38dff2dfee27f255e0a237ffba2eb44dcfc65f8d63298897aedd351a0/jupyterlite_core-0.7.0rc2.tar.gz", hash = "sha256:eee6525ad3ab965874bb6bb6ecf12dc6fb66fe7fd835bfff7616da9ff7557cac", size = 16180521, upload-time = "2025-11-25T08:28:35.139Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/dd/4d/215ecd452c6d218f060d108510ca83ef0b4e7f39ed7f0e971e95dc2a7575/jupyterlite_core-0.7.0.tar.gz", hash = "sha256:a7218331d31b88dfda17413849e03530bd7af0b9f4528b8060e65067ecd85498", size = 16181181, upload-time = "2025-11-26T09:37:52.31Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8b/f8/d0fafc07b1c693d5a88473985a11a753c3397cca7c7f73c94ee76331d5f8/jupyterlite_core-0.7.0rc2-py3-none-any.whl", hash = "sha256:0ed897ea028bd232cb34262d33289765d1d0396aab3d339044bc3c2b55319afc", size = 16192566, upload-time = "2025-11-25T08:28:31.652Z" },
+    { url = "https://files.pythonhosted.org/packages/7a/14/d603fa3b4289bbb6dc86ef758e857a1aa6749683390b89ed5b25f0654b5d/jupyterlite_core-0.7.0-py3-none-any.whl", hash = "sha256:4ad226c4bc2fdfc3d65f750b09ba4b60df506705e160d92c9142e48ee196c605", size = 16191203, upload-time = "2025-11-26T09:37:49.479Z" },
 ]
 
 [[package]]
@@ -1102,15 +1102,15 @@ wheels = [
 
 [[package]]
 name = "jupyterlite-pyodide-kernel"
-version = "0.7.0rc1"
+version = "0.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jupyterlite-core" },
     { name = "pkginfo" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c2/82/94e214a04c20b80f7695e5198116e7afb52afd921e8243c802eb22bd48c0/jupyterlite_pyodide_kernel-0.7.0rc1.tar.gz", hash = "sha256:17daaa41336d43f1687397f5e5464b40489f4816952099fc9f86ab977a8a24cb", size = 540690, upload-time = "2025-11-25T09:15:36.699Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f2/26/6fe82895db3ad85e3ccf1ce7155f89ec910db8a8e3267dca54adba9fbbfa/jupyterlite_pyodide_kernel-0.7.0.tar.gz", hash = "sha256:4c2b6763518faf6d72eea91b2db31e215fbc9aa3099cc3cfa5a2866cbd1c380e", size = 541202, upload-time = "2025-11-26T10:21:40.207Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/82/a7/d51803a0e78f105d9f121c6ec3a664c16995315e712adb9709d7d164f674/jupyterlite_pyodide_kernel-0.7.0rc1-py3-none-any.whl", hash = "sha256:226ebbfc085823e0c9c011b896ea91529cc87d1993b8800d475d6770c02db2f6", size = 556140, upload-time = "2025-11-25T09:15:34.456Z" },
+    { url = "https://files.pythonhosted.org/packages/a4/36/495b6357560f6b680fa4ffcefb85e646594ff29c6cb182028569847de156/jupyterlite_pyodide_kernel-0.7.0-py3-none-any.whl", hash = "sha256:02174ce22a3ac8e6c2a7e9206aa13afba77da15fc75237b8721b4548fb68c487", size = 555801, upload-time = "2025-11-26T10:21:37.763Z" },
 ]
 
 [[package]]
@@ -1127,7 +1127,7 @@ wheels = [
 
 [[package]]
 name = "jupyterlite-xeus"
-version = "4.3.0rc3"
+version = "4.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "empack" },
@@ -1136,9 +1136,9 @@ dependencies = [
     { name = "requests" },
     { name = "traitlets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/11/1f/de94ea7cb2ee349814f8bb8192fec94ecaed741d0b39f68be42ec6ff2e48/jupyterlite_xeus-4.3.0rc3.tar.gz", hash = "sha256:1ac2c5fe56d138a23e80bfd89921d64bcace975f79ee94db43924c639a2c04ba", size = 10423358, upload-time = "2025-11-25T09:27:19.908Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/79/64/81b3a2dea71e4f2e9b2e76caee4d7d62842dc4f6d2b594fbbcd521ad1dd0/jupyterlite_xeus-4.3.0.tar.gz", hash = "sha256:941be63465b5c8afba2e07008f549d2ff4adb38ce66455b10a307e05058bb832", size = 10423454, upload-time = "2025-11-26T13:49:08.601Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/39/b0/9c404e71d6c1397d3ebac3814a841e2cbab17cf2dd5242a8ccb03ac0e220/jupyterlite_xeus-4.3.0rc3-py3-none-any.whl", hash = "sha256:375b98fe48c92d55defad709d3b419886f542960787c0fb0d9b266049d7f77b1", size = 9597137, upload-time = "2025-11-25T09:27:16.512Z" },
+    { url = "https://files.pythonhosted.org/packages/3d/6a/21078798f3493245cd62ab7f051bb9e4f9a61ade982d49ca1b707dff2b0a/jupyterlite_xeus-4.3.0-py3-none-any.whl", hash = "sha256:61e47ca1ff05e85cf26bf564b9d39cc316908f7665dbc9cbfcf0d7fbdd40dfda", size = 9596913, upload-time = "2025-11-26T13:49:05.877Z" },
 ]
 
 [[package]]
@@ -1200,13 +1200,13 @@ requires-dist = [
     { name = "jupyterlab-miami-nights", specifier = ">=0.4.0" },
     { name = "jupyterlab-open-url-parameter", specifier = ">=0.3.0" },
     { name = "jupyterlite-ai", specifier = ">=0.9.1" },
-    { name = "jupyterlite-core", specifier = ">=0.7.0rc2" },
+    { name = "jupyterlite-core", specifier = ">=0.7.0" },
     { name = "jupyterlite-echo-kernel", specifier = ">=0.4.0a0" },
     { name = "jupyterlite-javascript-kernel", specifier = ">=0.3.0" },
     { name = "jupyterlite-p5-kernel", specifier = ">=0.1.1" },
-    { name = "jupyterlite-pyodide-kernel", specifier = ">=0.7.0rc1" },
+    { name = "jupyterlite-pyodide-kernel", specifier = ">=0.7.0" },
     { name = "jupyterlite-terminal", specifier = ">=1.0.0" },
-    { name = "jupyterlite-xeus", specifier = ">=4.3.0rc3" },
+    { name = "jupyterlite-xeus", specifier = ">=4.3.0" },
     { name = "notebook", specifier = ">=7.5.0" },
     { name = "plotly", specifier = ">=6,<7" },
 ]
