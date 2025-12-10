@@ -920,12 +920,21 @@ wheels = [
 ]
 
 [[package]]
-name = "jupyterlab-cursor-theme"
-version = "1.0.1"
+name = "jupyterlab-cursor-dark"
+version = "1.0.2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/55/6f/37bd606959b6d16cbf76da9a11841e5deece2c8ef0d5ace176aece75db65/jupyterlab_cursor_theme-1.0.1.tar.gz", hash = "sha256:4b939ef01fb0850823738379cf356f32f650146624656881eabb43db090ac7a7", size = 958554, upload-time = "2025-10-27T23:18:36.056Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/58/1f/8545e41c31d3127f5108308a844a5a8ccc38eaec6e8381492e29ab061d5b/jupyterlab_cursor_dark-1.0.2.tar.gz", hash = "sha256:eefec115ce6890708957fdde52c291dfd9201cdd85bd111e20dc2ba3dda955c9", size = 12922, upload-time = "2025-12-10T08:22:26.337Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ea/78/ce7137185fa2dd746e57cf5d2c413109489f9f58ef3fe6721d41b74f26e4/jupyterlab_cursor_theme-1.0.1-py3-none-any.whl", hash = "sha256:4e98b97cd9639f423da3e939aa58a4e49e79b33595c345da5692b76df377234c", size = 29049, upload-time = "2025-10-27T23:18:34.289Z" },
+    { url = "https://files.pythonhosted.org/packages/bc/91/0b61ffe6009b8c1fa42c4381220d86e9afad3eea21ed5886daa153ad3f29/jupyterlab_cursor_dark-1.0.2-py3-none-any.whl", hash = "sha256:e0b7bb1dce6fb59719396291f0e7b6087215f8dbf769aadf9ac3ca55327c3307", size = 25086, upload-time = "2025-12-10T08:22:25.053Z" },
+]
+
+[[package]]
+name = "jupyterlab-cursor-light"
+version = "1.0.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/76/aa/b1ef7f1f7d1d7dffb64a9dbc79960cb3e155fe4425e13b1d4f2bce0c58c5/jupyterlab_cursor_light-1.0.2.tar.gz", hash = "sha256:279b017f416f04708f53669bd6b83f8801399b9fe50ec79b9665b2271762e9ec", size = 12915, upload-time = "2025-12-10T08:22:32.674Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/22/10/2db62c898a8b3661c6112e689a2c7001847ec242d77e079a4cda862d5efa/jupyterlab_cursor_light-1.0.2-py3-none-any.whl", hash = "sha256:c1fb26766f9b448afabb5b9cb09fc67d883ef2ab7cbbbc9cb19998c50eea6d45", size = 25131, upload-time = "2025-12-10T08:22:31.458Z" },
 ]
 
 [[package]]
@@ -1163,7 +1172,8 @@ dependencies = [
     { name = "ipywidgets" },
     { name = "jupyterlab" },
     { name = "jupyterlab-cell-flash" },
-    { name = "jupyterlab-cursor-theme" },
+    { name = "jupyterlab-cursor-dark" },
+    { name = "jupyterlab-cursor-light" },
     { name = "jupyterlab-fasta" },
     { name = "jupyterlab-filesystem-access" },
     { name = "jupyterlab-geojson" },
@@ -1192,7 +1202,8 @@ requires-dist = [
     { name = "ipywidgets", specifier = ">=8.1" },
     { name = "jupyterlab", specifier = ">=4.5.0" },
     { name = "jupyterlab-cell-flash" },
-    { name = "jupyterlab-cursor-theme", specifier = ">=1.0.1" },
+    { name = "jupyterlab-cursor-dark", specifier = ">=1.0.2" },
+    { name = "jupyterlab-cursor-light", specifier = ">=1.0.2" },
     { name = "jupyterlab-fasta", specifier = ">=3,<4" },
     { name = "jupyterlab-filesystem-access", specifier = ">=0.7.0" },
     { name = "jupyterlab-geojson", specifier = ">=3,<4" },
