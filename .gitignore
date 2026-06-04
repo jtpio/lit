@@ -114,3 +114,9 @@ dmypy.json
 # jupyterlite
 *.doit.db
 _output
+content/README.md
+
+# jupyterlite-terminal (cockle) build artifacts
+cockle-config.json
+cockle_wasm_env/
+.cockle_temp/
